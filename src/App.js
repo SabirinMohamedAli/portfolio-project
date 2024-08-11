@@ -28,7 +28,7 @@ function Navbar() {
 
   return (
     <nav className="flex justify-between items-center p-6 bg-dark-blue text-white">
-      <h1 className="text-2xl font-bold">My Portfolio</h1>
+      <h1 className="text-2xl font-bold">KAAHIYE</h1>
       <button
         className="text-white block sm:hidden focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
