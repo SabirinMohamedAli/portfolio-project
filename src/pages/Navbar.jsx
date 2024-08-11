@@ -1,23 +1,5 @@
 import React, { useState } from 'react';
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
 import { FaGithub, FaFacebook } from 'react-icons/fa';
-
-function App() {
-  return (
-    <div className="bg-white text-dark-blue min-h-screen">
-      <Navbar />
-      <div id="home"><Home /></div>
-      <div id="about"><About /></div>
-      <div id="services"><Services /></div>
-      <div id="projects"><Projects /></div>
-      <div id="contact"><Contact /></div>
-    </div>
-  );
-}
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -86,4 +68,4 @@ function Navbar() {
   );
 }
 
-export default App;
+export default Navbar;
