@@ -3,7 +3,7 @@ import heroImage from '../images/1.jpg';
 
 function Home() {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center justify-center h-screen bg-white text-dark-blue">
+    <div className="flex flex-col-reverse md:flex-row items-center justify-center h-screen bg-white text-dark-blue  mt-[-10px]">
       <div className="md:w-1/2 p-8 md:p-16">
         <h2 className="text-5xl font-bold mb-4" style={{ fontFamily: 'cursive', fontSize:'-30px', marginBottom: '10px' }}>
           Hi, I am Adnan

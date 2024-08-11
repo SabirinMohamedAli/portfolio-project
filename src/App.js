@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -8,26 +7,32 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
-      <div className="bg-white text-dark-blue min-h-screen">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="bg-white text-dark-blue min-h-screen">
+      <Navbar />
+      <div id="home"><Home /></div>
+      <div id="about"><About /></div>
+      <div id="services"><Services /></div>
+      <div id="projects"><Projects /></div>
+      <div id="contact"><Contact /></div>
+    </div>
   );
 }
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleScroll = (e, sectionId) => {
+    e.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      console.warn(`Section with id ${sectionId} not found!`);
+    }
+  };
+
   return (
-    <nav className="flex justify-between items-center p-6 bg-dark-blue text-white">
+    <nav className="flex justify-between items-center p-6 bg-dark-blue text-white fixed top-0 w-full z-50">
       <h1 className="text-2xl font-bold">KAAHIYE</h1>
       <button
         className="text-white block sm:hidden focus:outline-none"
@@ -40,23 +45,33 @@ function Navbar() {
           isOpen ? 'block' : 'hidden'
         } sm:flex space-x-6 sm:space-x-4`}
       >
-        <NavItem to="/" label="Home" />
-        <NavItem to="/about" label="About" />
-        <NavItem to="/services" label="Services" />
-        <NavItem to="/projects" label="Projects" />
-        <NavItem to="/contact" label="Contact Us" />
+        <li className="hover:text-green transition duration-300">
+          <button className="flex items-center space-x-2" onClick={(e) => handleScroll(e, 'home')}>
+            <span>Home</span>
+          </button>
+        </li>
+        <li className="hover:text-green transition duration-300">
+          <button className="flex items-center space-x-2" onClick={(e) => handleScroll(e, 'about')}>
+            <span>About</span>
+          </button>
+        </li>
+        <li className="hover:text-green transition duration-300">
+          <button className="flex items-center space-x-2" onClick={(e) => handleScroll(e, 'services')}>
+            <span>Services</span>
+          </button>
+        </li>
+        <li className="hover:text-green transition duration-300">
+          <button className="flex items-center space-x-2" onClick={(e) => handleScroll(e, 'projects')}>
+            <span>Projects</span>
+          </button>
+        </li>
+        <li className="hover:text-green transition duration-300">
+          <button className="flex items-center space-x-2" onClick={(e) => handleScroll(e, 'contact')}>
+            <span>Contact Us</span>
+          </button>
+        </li>
       </ul>
     </nav>
-  );
-}
-
-function NavItem({ to, label }) {
-  return (
-    <li className="hover:text-green transition duration-300">
-      <Link to={to} className="flex items-center space-x-2">
-        <span>{label}</span>
-      </Link>
-    </li>
   );
 }
 
