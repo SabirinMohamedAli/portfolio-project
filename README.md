@@ -3,7 +3,6 @@
 Welcome to Adnan's personal portfolio website, showcasing his skills, projects, and experiences as a Full Stack Developer and Network Engineer.
 
 ## Demo
-
 Check out the live demo of the portfolio [here](wali sahaqaa ku socoto). 
 
 ## Features
@@ -29,4 +28,24 @@ Follow these steps to run this project locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/AdnanKahiye/portfolio-project.git
+   git clone https://github.com/SabirinMohamedAli/portfolio-project.git
+2. **Navigate to the project directory:**
+   cd portfolio-project
+3. **Install the dependencies:**
+   npm install
+4. **Start the development server:**
+   npm start
+   The website should now be running on http://localhost:3000.
+## Usage
+Sections
+Home: Introduction to Adnan's profile, including his profession and skills.
+About: Detailed background information, including education, work experience, and personal achievements.
+Services: A list of services offered, with descriptions and relevant skills.
+Projects: A showcase of selected projects, with detailed information and links to the GitHub repositories.
+Contact: A contact form that allows visitors to send messages directly from the websit
+Contact
+Feel free to reach out if you have any questions or suggestions!
+
+GitHub:https://github.com/AdnanKahiye
+Facebook: 
+Email:
