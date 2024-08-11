@@ -5,7 +5,6 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import { AiFillHome, AiOutlineUser, AiOutlineAppstore, AiOutlineFundProjectionScreen, AiOutlinePhone } from 'react-icons/ai';
 
 function App() {
   return (
@@ -41,21 +40,20 @@ function Navbar() {
           isOpen ? 'block' : 'hidden'
         } sm:flex space-x-6 sm:space-x-4`}
       >
-        <NavItem to="/" icon={<AiFillHome />} label="Home" />
-        <NavItem to="/about" icon={<AiOutlineUser />} label="About" />
-        <NavItem to="/services" icon={<AiOutlineAppstore />} label="Services" />
-        <NavItem to="/projects" icon={<AiOutlineFundProjectionScreen />} label="Projects" />
-        <NavItem to="/contact" icon={<AiOutlinePhone />} label="Contact Us" />
+        <NavItem to="/" label="Home" />
+        <NavItem to="/about" label="About" />
+        <NavItem to="/services" label="Services" />
+        <NavItem to="/projects" label="Projects" />
+        <NavItem to="/contact" label="Contact Us" />
       </ul>
     </nav>
   );
 }
 
-function NavItem({ to, icon, label }) {
+function NavItem({ to, label }) {
   return (
     <li className="hover:text-green transition duration-300">
       <Link to={to} className="flex items-center space-x-2">
-        {icon}
         <span>{label}</span>
       </Link>
     </li>
