@@ -31,7 +31,7 @@ function Navbar() {
       <ul
         className={`${
           isOpen ? 'block' : 'hidden'
-        } absolute top-full left-0 w-full bg-white sm:relative sm:flex sm:space-x-4 md:space-x-6 items-center sm:block sm:bg-transparent sm:top-auto sm:left-auto`}
+        } absolute top-full left-0 w-full bg-white sm:relative sm:flex sm:space-x-4 md:space-x-6 items-center sm:bg-transparent sm:top-auto sm:left-auto`}
       >
         <li className="hover:text-green transition duration-300 text-center">
           <button className="block py-2 sm:inline-block" onClick={(e) => handleScroll(e, 'home')}>
