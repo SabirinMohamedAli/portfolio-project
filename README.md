@@ -47,5 +47,5 @@ Contact
 Feel free to reach out if you have any questions or suggestions!
 
 GitHub:https://github.com/AdnanKahiye
-Facebook: 
-Email:
+Facebook: https://www.facebook.com/adnanyare.improw?mibextid=ZbWKwL
+
