@@ -72,7 +72,7 @@ function Navbar() {
           </button>
         </li>
         <li className="hover:text-green transition duration-300">
-          <a href="https://github.com/SabirinMohamedAli" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/AdnanKahiye" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-xl" />
           </a>
         </li>
