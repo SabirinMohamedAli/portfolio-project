@@ -3,7 +3,7 @@ import heroImage from '../images/4.png';
 
 function Home() {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center justify-center h-screen bg-white text-dark-blue mt-[1px]">
+    <div className="flex flex-col-reverse md:flex-row items-center justify-center h-screen bg-white text-dark-blue mt-0">
       <div className="md:w-1/2 p-8 md:p-12">
         <h2 className="text-5xl font-bold mb-2" style={{ fontFamily: 'cursive', marginBottom: '10px' }}>
           Hi, I am Adnan
@@ -27,8 +27,8 @@ function Home() {
           </button>
         </div>
       </div>
-      <div className="md:w-0.5/1 flex justify-center">
-        <img src={heroImage} alt="Hero" className="w-2/2 h-auto object-contain" style={{ backgroundColor: 'transparent' }} />
+      <div className="md:w-1/2 flex justify-center">
+        <img src={heroImage} alt="Hero" className="w-3/4 h-auto object-contain" style={{ backgroundColor: 'transparent' }} />
       </div>
     </div>
   );

@@ -15,10 +15,12 @@ function Navbar() {
   };
 
   return (
-    <nav className="flex justify-between items-center p-6 bg-dark-blue text-white fixed top-0 w-full z-50">
-      <h1 className="text-2xl font-bold">KAAHIYE</h1>
+    <nav className="flex justify-between items-center p-6 bg-white text-dark-blue fixed top-0 w-full z-50 border-b border-gray-300">
+      <h1 className="text-2xl font-bold" style={{ fontFamily: 'cursive', borderBottom: '2px solid #2ECC71', color: '#2C3E50' }}>
+        Hi, I am Adnan
+      </h1>
       <button
-        className="text-white block sm:hidden focus:outline-none"
+        className="text-dark-blue block sm:hidden focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
         ☰
