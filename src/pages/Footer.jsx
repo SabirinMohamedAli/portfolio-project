@@ -7,13 +7,13 @@ function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-6">
         {/* Logo and About Us */}
         <div>
-          <h2 className="text-lg font-bold mb-4">Your Logo</h2>
+          <h2 className="text-lg font-bold mb-4">Kaahiye</h2>
           <p className="text-sm mb-4">Your Tagline Here</p>
           <p className="text-sm">We want to help bring talented students and unique startups together.</p>
           <div className="mt-4">
             <h3 className="text-sm font-bold mb-2">Contact Us</h3>
-            <p className="text-sm">📞 +91 9999 999 999</p>
-            <p className="text-sm">📧 youremailid.com</p>
+            <p className="text-sm">📞 +612011700</p>
+            <p className="text-sm">📧 thaprinmohamett1333@gmail.com</p>
           </div>
         </div>
 
@@ -21,11 +21,11 @@ function Footer() {
         <div>
           <h3 className="text-lg font-bold mb-4">Information</h3>
           <ul>
-            <li className="mb-2 text-sm"><a href="#about" className="hover:text-green">About Us</a></li>
-            <li className="mb-2 text-sm"><a href="#search" className="hover:text-green">More Search</a></li>
-            <li className="mb-2 text-sm"><a href="#blog" className="hover:text-green">Blog</a></li>
-            <li className="mb-2 text-sm"><a href="#testimonials" className="hover:text-green">Testimonials</a></li>
-            <li className="text-sm"><a href="#events" className="hover:text-green">Events</a></li>
+            <li className="mb-2 text-sm"><a href="#Home" className="hover:text-green">Home</a></li>
+            <li className="mb-2 text-sm"><a href="#About" className="hover:text-green">About Us</a></li>
+            <li className="mb-2 text-sm"><a href="#Projects" className="hover:text-green">Projects</a></li>
+            <li className="mb-2 text-sm"><a href="#Services" className="hover:text-green">Services</a></li>
+            <li className="text-sm"><a href="#Contact" className="hover:text-green">Contact Us</a></li>
           </ul>
         </div>
 
@@ -73,7 +73,7 @@ function Footer() {
         </div>
       </div>
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
-        <p>© 2024 Company Ltd. All Rights Reserved.</p>
+        <p>© 2024 Kaahiye All Rights Reserved.</p>
       </div>
     </footer>
   );
