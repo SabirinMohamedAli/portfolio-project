@@ -4,6 +4,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer';  // Import Footer component
 import { FaGithub, FaFacebook } from 'react-icons/fa';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <div id="services"><Services /></div>
       <div id="projects"><Projects /></div>
       <div id="contact"><Contact /></div>
+      <Footer />  {/* Add Footer here */}
     </div>
   );
 }
@@ -33,10 +35,10 @@ function Navbar() {
   };
 
   return (
-    <nav className="flex justify-between items-center p-6 bg-white font-bold mb-2 text-dark-blue  fixed top-0 w-full z-50">
-      <h1 className="text-2xl font-bold" style={{ fontFamily: 'cursive' }} >KAAHIYE</h1>
+    <nav className="flex justify-between items-center p-6 bg-white font-bold mb-2 text-dark-blue fixed top-0 w-full z-50 border-b border-gray-300">
+      <h1 className="text-2xl font-bold" style={{ fontFamily: 'cursive' }}>KAAHIYE</h1>
       <button
-        className="text-white block sm:hidden focus:outline-none"
+        className="text-dark-blue block sm:hidden focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
         ☰
