@@ -35,7 +35,7 @@ function Projects() {
   ];
 
   return (
-    <div className="p-10 bg-white text-dark-blue min-h-screen">
+    <div className="p-10 bg-white text-dark-blue min-h-screen border-4 border-gray-300 rounded-lg shadow-lg">
       <h2 className="text-4xl font-bold mb-8 text-center">My Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {projectList.map((project, index) => (

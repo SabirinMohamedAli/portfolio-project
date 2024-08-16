@@ -1,11 +1,11 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
-import aboutImage from '../images/4.png'; // Replace with your image path
+import aboutImage from '../images/4.png'; 
 import 'animate.css';
 
 function About() {
   return (
-    <div className="bg-white text-dark-blue py-20 px-6 md:px-20">
+    <div className="bg-white text-dark-blue py-20 px-6 md:px-20 border-4 border-gray-300 rounded-lg shadow-lg">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-5xl font-bold text-center mb-12 animate__animated animate__fadeInDown">
           About Me
