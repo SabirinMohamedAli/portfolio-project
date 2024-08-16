@@ -14,7 +14,7 @@ function Contact() {
   };
 
   return (
-    <div className="bg-dark-blue text-white flex flex-col items-center justify-center min-h-screen">
+    <div className="bg-dark-blue text-white flex flex-col items-center justify-center min-h-screen border-4 border-gray-300 rounded-lg shadow-lg">
       <div className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 p-10 md:p-20">
         {/* Left Section - Contact Info */}
         <div className="space-y-8">

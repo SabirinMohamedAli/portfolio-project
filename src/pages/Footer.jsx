@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaInstagram, FaTwitter } from 'react-
 
 function Footer() {
   return (
-    <footer className="bg-dark-blue text-white py-8">
+    <footer className="bg-dark-blue text-white py-8 border-4 border-gray-300 rounded-lg shadow-lg">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-6">
         {/* Logo and About Us */}
         <div>
@@ -54,19 +54,19 @@ function Footer() {
             </button>
           </form>
           <div className="mt-6 flex justify-center space-x-4">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/adnanyare.improw?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="text-xl hover:text-green transition duration-300" />
             </a>
-            <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AdnanKahiye" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-xl hover:text-green transition duration-300" />
             </a>
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-xl hover:text-green transition duration-300" />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/adnan%20kahiye/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-xl hover:text-green transition duration-300" />
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/cadnans51968" target="_blank" rel="noopener noreferrer">
               <FaTwitter className="text-xl hover:text-green transition duration-300" />
             </a>
           </div>

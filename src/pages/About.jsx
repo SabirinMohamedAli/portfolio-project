@@ -37,10 +37,10 @@ function About() {
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-3xl text-dark-blue hover:text-blue-500 transition duration-300 animate__animated animate__fadeInUp">
                 <FaLinkedin />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-3xl text-dark-blue hover:text-green transition duration-300 animate__animated animate__fadeInUp">
+              <a href="https://github.com/AdnanKahiye" target="_blank" rel="noopener noreferrer" className="text-3xl text-dark-blue hover:text-green transition duration-300 animate__animated animate__fadeInUp">
                 <FaGithub />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-3xl text-dark-blue hover:text-blue-400 transition duration-300 animate__animated animate__fadeInUp">
+              <a href="https://x.com/cadnans51968" target="_blank" rel="noopener noreferrer" className="text-3xl text-dark-blue hover:text-blue-400 transition duration-300 animate__animated animate__fadeInUp">
                 <FaTwitter />
               </a>
             </div>
