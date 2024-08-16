@@ -8,9 +8,10 @@ function Footer() {
         {/* Logo and About Us */}
         <div>
           <h2 className="text-lg font-bold mb-4">Kaahiye</h2>
-          <p className="text-sm mb-4">Your Tagline Here</p>
-          <p className="text-sm">We want to help bring talented students and unique startups together.</p>
-          <div className="mt-4">
+          <p className="text-sm mb-4">Building Your Digital Future</p>
+<p className="text-sm">I specialize in crafting unique, scalable, and efficient solutions that bring ideas to life in the digital world.</p>
+<div className="mt-4">
+
           </div>
         </div>
 

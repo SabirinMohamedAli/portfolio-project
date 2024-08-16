@@ -27,7 +27,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-100">
+    <div className="flex flex-col min-h-screen bg-gray-100  border-gray-300 rounded-lg shadow-lg">
       <main className="flex-grow p-4 sm:p-8">
         <div className="max-w-7xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="flex flex-col md:flex-row">
