@@ -11,9 +11,6 @@ function Footer() {
           <p className="text-sm mb-4">Your Tagline Here</p>
           <p className="text-sm">We want to help bring talented students and unique startups together.</p>
           <div className="mt-4">
-            <h3 className="text-sm font-bold mb-2">Contact Us</h3>
-            <p className="text-sm">📞 +612011700</p>
-            <p className="text-sm">📧 thaprinmohamett1333@gmail.com</p>
           </div>
         </div>
 
